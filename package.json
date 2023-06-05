@@ -1,0 +1,27 @@
+{
+  "name": "hapori",
+  "version": "1.0.0",
+  "description": "Bot Discord Hapori",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Tokioshy",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.11",
+    "quick.db": "^9.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tokioshx/Hapori.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tokioshx/Hapori/issues"
+  },
+  "homepage": "https://github.com/Tokioshx/Hapori#readme"
+}
