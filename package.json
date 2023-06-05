@@ -14,7 +14,8 @@
     "discord.js": "^14.11.0",
     "dotenv": "^16.0.3",
     "node-fetch": "^2.6.11",
-    "quick.db": "^9.1.6"
+    "quick.db": "^9.1.6",
+    "request-promise-native": "^0.0.0"
   },
   "repository": {
     "type": "git",
