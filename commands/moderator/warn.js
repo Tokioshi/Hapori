@@ -19,7 +19,7 @@ module.exports = {
     .setDMPermission(false),
   async execute(interaction) {
     let member = interaction.options.getMember('member');
-    let reason = interaction.options.getString('alasan');
+    let alasan = interaction.options.getString('alasan');
 
     if(!interaction.member.permissions.has(PermissionFlagsBits.KickMembers)) {
       return interaction.reply({
