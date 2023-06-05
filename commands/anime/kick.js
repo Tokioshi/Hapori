@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('kick')
+    .setName('kick-anime')
     .setDescription('Kick atau dalam bahasa Indonesia nendang')
     .addUserOption(option =>
       option.setName('user')
