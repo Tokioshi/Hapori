@@ -19,7 +19,7 @@ module.exports = {
       embeds: [
         new EmbedBuilder()
         .setColor('Navy')
-        .setAuthor({ name: `${interaction.user} kick ${member}` })
+        .setTitle(`${interaction.user} kick ${member}`)
         .setImage(json.url)
       ],
     });

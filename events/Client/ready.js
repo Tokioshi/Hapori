@@ -5,6 +5,6 @@ module.exports = {
   once: true,
   async execute(client) {
     console.log(`Ready and logged as ${client.user.tag}!`);
-    client.user.setActivity('Competive', { type: ActivityType.Playing });
+    client.user.setActivity('Competitive', { type: ActivityType.Playing });
   },
 };
