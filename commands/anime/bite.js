@@ -19,7 +19,7 @@ module.exports = {
       embeds: [
         new EmbedBuilder()
         .setColor('Navy')
-        .setTitle(`${interaction.user} bite ${member}`)
+        .setDescription(`${interaction.user} **bite** ${member}`)
         .setImage(json.url)
       ],
     });

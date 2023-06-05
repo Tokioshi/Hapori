@@ -19,7 +19,7 @@ module.exports = {
       embeds: [
         new EmbedBuilder()
         .setColor('Navy')
-        .setTitle(`${interaction.user} hug ${member}`)
+        .setDescription(`${interaction.user} **hug** ${member}`)
         .setImage(json.url)
       ],
     });

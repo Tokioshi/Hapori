@@ -19,7 +19,7 @@ module.exports = {
       embeds: [
         new EmbedBuilder()
         .setColor('Navy')
-        .setTitle(`${interaction.user} highfive with ${member}`)
+        .setDescription(`${interaction.user} **highfive with** ${member}`)
         .setImage(json.url)
       ],
     });
