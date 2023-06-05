@@ -1,2 +1,2 @@
 # Hapori Bot Discord
-Hapori is a official bot Discord made by Tokioshy. This bot was created for multi function. This bot have a lot of commands where can help Hapori server to grow.
+Hapori is a official bot Discord for Hapori server and made by Tokioshy. This bot was created for multi function. This bot have a lot of commands where can help Hapori server to grow. This project was closed, which mean no one can see this code AKA private repository.
