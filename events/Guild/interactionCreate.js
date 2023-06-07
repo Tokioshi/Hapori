@@ -39,7 +39,7 @@ module.exports = {
             embeds: [
               new EmbedBuilder()
               .setColor('Red')
-              .setDescription('⛔ | You already verified!')
+              .setDescription('⛔ **| You already verified!**')
             ],
             ephemeral: true
           });
@@ -50,7 +50,7 @@ module.exports = {
             embeds: [
               new EmbedBuilder()
               .setColor('Green')
-              .setDescription('✅ | Successfully verify!')
+              .setDescription('✅ **| Successfully verify!**')
             ],
             ephemeral: true
           });
@@ -59,7 +59,7 @@ module.exports = {
             embeds: [
               new EmbedBuilder()
               .setColor9('Red')
-              .setDescription('⛔ | Fail verify, please report to <@1010474132753883207>!')
+              .setDescription('⛔ **| Fail verify, please report to <@1010474132753883207>!**')
             ],
             ephemeral: true
           });
