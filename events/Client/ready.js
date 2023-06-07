@@ -12,7 +12,7 @@ module.exports = {
         new EmbedBuilder()
         .setColor('Navy')
         .setTitle('Verification Required')
-        .setDescription('> If you want to unlock additional channels on Hapori, click the button below and the bot will automatically give you <@&1089027827975864343> role.')
+        .setDescription('> If you want to unlock additional channels on Hapori, click the button below and the bot will automatically give you <@&1089027827975864343> role')
         .setFooter({ text: '・Hapori Staff Team' })
       ],
       components: [
