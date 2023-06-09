@@ -68,7 +68,7 @@ module.exports = {
           interaction.reply({
             embeds: [
               new EmbedBuilder()
-              .setColor9('Red')
+              .setColor('Red')
               .setDescription('⛔ **| Fail verify, please report to <@1010474132753883207>!**')
             ],
             ephemeral: true
