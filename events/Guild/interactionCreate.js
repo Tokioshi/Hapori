@@ -73,6 +73,7 @@ module.exports = {
             ],
             ephemeral: true
           });
+          console.log(error)
         });
       };
     };
