@@ -54,6 +54,16 @@ module.exports = {
             ],
             ephemeral: true
           });
+
+          interaction.channels.cache.get('1089027829917827115').send({
+            content: `${member}`,
+            embeds: [
+              new EmbedBuilder()
+              .setColor('Navy')
+              .setTitle('Thank Your For Joining Hapori')
+              .setDescription(`Welcome to Hapori Discord server! Please read our rules at <#1089027829724885047> and get some roles at <#1089027829724885050>! Have fun and enjoy this server!`)
+            ]
+          });
         }).catch((error) => {
           interaction.reply({
             embeds: [
