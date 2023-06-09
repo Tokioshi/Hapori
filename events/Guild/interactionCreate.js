@@ -55,7 +55,7 @@ module.exports = {
             ephemeral: true
           });
 
-          interaction.channels.cache.get('1089027829917827115').send({
+          interaction.guild.channels.cache.get('1089027829917827115').send({
             content: `${member}`,
             embeds: [
               new EmbedBuilder()
